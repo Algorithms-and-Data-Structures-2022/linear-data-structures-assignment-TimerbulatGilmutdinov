@@ -16,6 +16,7 @@ namespace assignment {
     for (int i = 0; i < capacity_; i++) {
       data_[i] = 0;
     }
+
   }
 
   DynamicArray::~DynamicArray() {
@@ -38,7 +39,7 @@ namespace assignment {
     }
     delete[] data_;
     data_ = newData;
-    data_[size_++] = value;
+    data_[size_++] = value;//
   }
 
   bool DynamicArray::Insert(int index, int value) {
