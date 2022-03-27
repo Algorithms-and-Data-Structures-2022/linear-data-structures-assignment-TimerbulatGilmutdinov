@@ -39,7 +39,7 @@ namespace assignment {
     }
     delete[] data_;
     data_ = newData;
-    data_[size_++] = value;//
+    data_[size_++] = value;
   }
 
   bool DynamicArray::Insert(int index, int value) {
